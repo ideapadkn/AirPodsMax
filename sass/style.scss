@@ -1,0 +1,35 @@
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'variables';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  color: $black;
+  font-family: $main-font;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.container {
+  max-width: $container;
+  padding: 0 10px;
+  margin: 0 auto;
+}

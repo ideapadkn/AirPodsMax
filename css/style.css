@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0)
+}
+
+body {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto
+}
+
+/*# sourceMappingURL=style.css.map */
+0px;
+padding: 0 10px;
+margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
