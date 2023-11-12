@@ -1,0 +1,190 @@
+@media (max-width: 1390px) {
+  .header {
+    &__content {
+      .title {
+        font-size: 180px;
+        transform: translate(127px, 17px);
+      }
+
+      &-img img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__content {
+      .title {
+        transform: none;
+        font-size: 140px;
+        padding-top: 20vh;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        &--pod {
+          z-index: 1;
+        }
+
+        &--s {
+          transform: none;
+          position: relative;
+          z-index: -1;
+        }
+
+        &--m {
+          transform: none;
+        }
+
+        &--ax {
+          transform: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 864px) {
+  .header {
+    &__content {
+      .title {
+        position: relative;
+        font-size: 100px;
+        padding-top: 0;
+
+        &--m {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 652px) {
+  .header {
+    &__content {
+      .title {
+        font-size: 58px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    &__title {
+      font-size: 36px;
+    }
+
+    .choose-color {
+      padding-bottom: 60px;
+
+      &__list {
+        gap: 16px;
+      }
+    }
+
+    .composition {
+      margin-bottom: 60px;
+    }
+
+    .case {
+      padding: 60px 0;
+
+      .energy__title {
+        padding-top: 60px;
+        margin-bottom: 20px;
+      }
+
+      .energy__num {
+        font-size: 110px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    &__top {
+      align-items: flex-start;
+
+      .menu {
+        &__list {
+          flex-wrap: wrap;
+          gap: 20px 40px;
+
+          .menu__item {
+            &:first-child {
+              margin-left: auto;
+            }
+          }
+
+          .menu__item-btn {
+            margin-left: auto;
+
+            button {
+              width: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    .choose-color {
+      padding-bottom: 40px;
+
+      &__text {
+        margin-bottom: 40px;
+      }
+    }
+
+    .case {
+      padding: 40px 0;
+    }
+
+    .composition {
+      &__inner {
+        flex-wrap: wrap;
+        gap: 40px 0;
+        justify-content: center;
+
+        &-text p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .main {
+    &__title {
+      font-size: 28px;
+    }
+
+    .case {
+      .energy__num {
+        font-size: 92px;
+      }
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 404px) {
+  .header {
+    &__content {
+      .title {
+        font-size: 50px;
+      }
+    }
+  }
+}
