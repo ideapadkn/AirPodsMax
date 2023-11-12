@@ -74,7 +74,6 @@
 
       &::before {
         content: '';
-        background: $blue-gradient;
         position: absolute;
         top: 0;
         right: 0;
@@ -83,7 +82,36 @@
         width: 100%;
         z-index: -2;
       }
+
+      &:has(.color--blue.content-item__active)::before {
+        background: $blue-gradient;
+      }
+
+      &:has(.color--red.content-item__active)::before {
+        background: $red-gradient;
+      }
+
+      &:has(.color--green.content-item__active)::before {
+        background: $green-gradient;
+      }
+
+      &:has(.color--black.content-item__active)::before {
+        background: $black-gradient;
+      }
+
+      &:has(.color--white.content-item__active)::before {
+        background: $white-gradient;
+      }
+
     }
   }
 
+}
+
+.content-item {
+  display: none;
+}
+
+.content-item__active {
+  display: inline-block;
 }
