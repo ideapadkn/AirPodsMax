@@ -1,1 +1,36 @@
 @import 'variables';
+
+.footer {
+  padding: 225px 0 40px;
+  background-color: $black;
+  position: relative;
+  z-index: -2;
+  color: $white;
+  text-align: center;
+  font-weight: 700;
+
+  &__link {
+    color: $white;
+  }
+
+  &__text {
+    padding: 20px 0;
+    a {
+      color: $white;
+    }
+  }
+
+  &__list {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+
+    .footer__item {
+      a {
+        color: $white;
+      }
+    }
+  }
+}
